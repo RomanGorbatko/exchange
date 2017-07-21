@@ -1,0 +1,24 @@
+{
+    "name": "romangorbatko/exchange",
+    "type": "library",
+    "authors": [
+        {
+            "name": "romangorbatko",
+            "email": "romangorbatko@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RG\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RG\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    }
+}
